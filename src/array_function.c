@@ -16,10 +16,10 @@ void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
     int min_num = src[0];
     int max_num = src[0];
     for (int i = 0; i < size; i++) {
-        if (src[i] < min) {
+        if (src[i] < min_num) {
             min_num = src[i];
         }
-        if (src[i] > max) {
+        if (src[i] > max_num) {
             max_num = src[i];
         }
     }
